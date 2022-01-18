@@ -16,7 +16,7 @@ void main(){
             }
         }       
     if(prime==2){
-        for(k=i;k<size;k++){
+        for(k=i+1;k<size;k++){
             a[k]=a[k+2];
         }
         
@@ -28,8 +28,9 @@ void main(){
         {
             size=size-1;
             
-        }  
-         }
+        }
+                }
+        
     }
     for(i=0;i<size;i++){
         printf("%d ",a[i]);
